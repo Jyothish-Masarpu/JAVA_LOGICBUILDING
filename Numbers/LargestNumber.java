@@ -17,7 +17,7 @@ import java.util.Arrays;
 
 public class LargestNumber {
     public static void main(String[] args) {
-        int[] nums={10,2};
+        int[] nums={3,30,34,5,9};
         System.out.println(largestNumber(nums));
     }
     public static String largestNumber(int[] nums){
