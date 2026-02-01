@@ -7,15 +7,7 @@ Examples: 3 (11), 5 (101), 9 (1001)
 package Numbers;
 public class EvilNumber {
     public static void main(String[] args) {
-        int num = abc;
-        // if (args.length > 0) {
-        //     try {
-        //         num = Integer.parseInt(args[0]);
-        //     } catch (NumberFormatException e) {
-        //         System.out.println("Invalid input. Provide an integer.");
-        //         return;
-        //     }
-        // }
+        int num = 16;
         if (num < 0) {
             System.out.println("Please provide a non-negative integer.");
             return;
